@@ -1,0 +1,259 @@
+[
+  {
+    "name": "undead",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Undead",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 136.0,
+    "itemName": "Music Disc",
+    "loots": [
+      {
+        "target": "entities/creeper",
+        "rolls": 1,
+        "conditions": [
+          {
+            "type": "random_chance_enchantments",
+            "enchant": "minecraft:sharpness",
+            "base": 0.1,
+            "perLevel": 0.1
+          },
+          {
+            "type": "killed_with_item_tag",
+            "tag": "minecraft:swords"
+          },
+          {
+            "type": "sky",
+            "canSee": true
+          }
+        ],
+        "count": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      {
+        "target": "blocks/gravel",
+        "rolls": 1,
+        "conditions": [
+          {
+            "type": "survive_explosion"
+          }
+        ],
+        "count": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    ],
+    "advancements": {
+
+    },
+    "recipes": [
+      {
+
+      }
+    ]
+  },
+  {
+    "name": "frosted",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Frosted",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 97.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "soulless",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Soulless",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 142.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "voyage",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M (ft. Laudividni) - Voyage",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 128.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "breeze",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Breeze",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 121.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "mineshaft",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Mineshaft",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 126.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "below",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Below",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 120.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "noescape",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M (ft. Laudividni) - No Escape",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 148.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "gilded",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Gilded",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 133.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "tundra",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Tundra",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 118.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "shulker",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Shulker",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 128.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "pumpkin",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Pumpkin",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 95.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "guardian",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Guardian",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 144.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "5_10kspecial",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - 5/10k Special",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 242.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "theenderdragon",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - The Ender Dragon",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 173.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "raiders",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Raiders",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 185.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "thewither",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - The Wither",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 148.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "thunderstorm",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - Thunder Storm",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 121.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "1kspecial",
+    "artist": "tenm",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "T_en_M - 1k Special",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 132.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "nightfall",
+    "artist": "laudividni",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "Laudividni - Frosted",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 137.0,
+    "itemName": "Music Disc"
+  },
+  {
+    "name": "dragonfight",
+    "artist": "stereonyx",
+    "maxCount": 1,
+    "rarity": "rare",
+    "description": "Stereonyx - Dragon Fight",
+    "comparatorOutput": 15,
+    "lengthInSeconds": 301.0,
+    "itemName": "Music Disc"
+  }
+]

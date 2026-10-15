@@ -1,0 +1,11 @@
+[
+  {
+    "name": "name",
+    "artist": "artist",
+    "maxCount": 1,
+    "rarity": "common",
+    "description": "desc",
+    "comparatorOutput": 1,
+    "lengthInSeconds": 120.0
+  }
+]

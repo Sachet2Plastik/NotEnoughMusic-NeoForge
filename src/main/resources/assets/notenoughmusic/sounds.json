@@ -1,0 +1,178 @@
+{
+  "nem_test": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/test/multimilionaire",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_undead": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/undead",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_frosted": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/frosted",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_soulless": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/soulless",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_voyage": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/voyage",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_breeze": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/breeze",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_mineshaft": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/mineshaft",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_below": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/below",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_noescape": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/noescape",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_gilded": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/gilded",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_tundra": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/tundra",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_shulker": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/shulker",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_pumpkin": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/pumpkin",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_guardian": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/guardian",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_5_10kspecial": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/5_10kspecial",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_theenderdragon": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/theenderdragon",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_raiders": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/raiders",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_thewither": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/thewither",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_thunderstorm": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/thunderstorm",
+        "stream": true
+      }
+    ]
+  },
+  "nem_tenm_1kspecial": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/t_en_m/1kspecial",
+        "stream": true
+      }
+    ]
+  },
+  "nem_laudividni_nightfall": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/laudividni/nightfall",
+        "stream": true
+      }
+    ]
+  },
+  "nem_stereonyx_dragonfight": {
+    "sounds": [
+      {
+        "name": "notenoughmusic:musics/stereonyx/dragonfight",
+        "stream": true
+      }
+    ]
+  }
+}
