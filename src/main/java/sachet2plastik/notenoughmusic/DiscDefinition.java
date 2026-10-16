@@ -137,7 +137,7 @@ public class DiscDefinition {
         };
     }
 
-    private static List<LootDefinition> convertRawLoots(List<RawLoot> raw) {
+    public static List<LootDefinition> convertRawLoots(List<RawLoot> raw) {
         ArrayList<LootDefinition> lootDefinitions = new ArrayList<>(List.of());
 
         if (raw == null)

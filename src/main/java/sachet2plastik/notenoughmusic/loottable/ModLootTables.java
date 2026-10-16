@@ -24,7 +24,7 @@ public final class ModLootTables {
 
     private static void modifyLootTable(LootTableLoadEvent event) {
         ResourceLocation tableId = event.getName();
-        DiscsRegistry.DISCS.forEach((name, definition) -> definition.Loots.forEach(lootDefinition -> {
+        DiscsRegistry.DISCS.forEach((name, definition) -> LootRulesManager.rulesFor(name).forEach(lootDefinition -> {
             ResourceLocation targetId = ResourceLocation.fromNamespaceAndPath("minecraft", lootDefinition.Target);
             if (!targetId.equals(tableId)) {
                 return;

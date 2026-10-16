@@ -8,6 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import sachet2plastik.notenoughmusic.item.ModItems;
 import sachet2plastik.notenoughmusic.loottable.ModLootTables;
+import sachet2plastik.notenoughmusic.loottable.LootRulesManager;
 import sachet2plastik.notenoughmusic.sound.ModSound;
 
 @Mod(NotEnoughMusic.MOD_ID)
@@ -19,11 +20,13 @@ public class NotEnoughMusic {
 
     public NotEnoughMusic(IEventBus modEventBus) {
         DiscsRegistry.registerDiscFromConfig();
+        LootRulesManager.initializeBundledRules();
         ModSound.registerSounds();
         ModItems.registerModItems();
         ModSound.SOUND_EVENTS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModItems.CREATIVE_MODE_TABS.register(modEventBus);
         ModLootTables.registerLootTables();
+        net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(LootRulesManager::register);
     }
 }
